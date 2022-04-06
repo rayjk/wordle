@@ -72,10 +72,10 @@ def nextGuess(guesses, solDat, wordScores):
     return submit, wordScores
 
 
-screen = getScreen()
-screen.show()
-screen.save('testScreen.png')
-input('\nIf image looks correct, press enter to continue\n')
+#screen = getScreen()
+#screen.show()
+#screen.save('testScreen.png')
+#input('\nIf image looks correct, press enter to continue\n')
 
 wordScores = pickle.load(open('data/wordScores.pickle', 'rb'))
 
